@@ -1,2 +1,2 @@
 # portal-mvp-backend
-re-test
+This repository is web hooked to Jenkins.
