@@ -1,0 +1,9 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+
+server:
+  port: 0
+  servlet:
+    context-path: /api

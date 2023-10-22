@@ -1,0 +1,19 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://18.225.13.208:5432/portal_mvp_dev
+    username: postgres
+    password: seoulimmigrants
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: false
+    generate-ddl: true
